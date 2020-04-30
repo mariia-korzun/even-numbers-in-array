@@ -17,18 +17,3 @@ For run:
 3. Implement function
 4. Run npm test
 <hr>
-
-### implementation
-```
-if (!Array.isArray(array) || !array.length) {
-        return 'Passed argument is not an array or empty';
-    }
-
-    const newArray = array.filter(item => item % 2 === 0);
-
-    if (!newArray.length) {
-        return 'Passed array not have twin numbers in array';
-    }
-
-    return newArray;
-```
