@@ -1,4 +1,4 @@
 const give = (value) => {
-    return;
+    return value;
 }
 module.exports = give;
