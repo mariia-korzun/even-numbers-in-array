@@ -1,5 +1,5 @@
 {
-  "name": "twin-number-in-array",
+  "name": "js-test-mocha",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,15 +9,21 @@
     "test": "npm run test:junit",
     "build": "echo \"Dummy build script\""
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifedyukin/js-test-mocha.git"
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "bugs": {
+    "url": "https://github.com/ifedyukin/js-test-mocha/issues"
+  },
+  "homepage": "https://github.com/ifedyukin/js-test-mocha#readme",
+  "devDependencies": {
     "chai": "^4.2.0",
-    "cross-env": "^7.0.2",
-    "deep-eql": "^4.0.0",
-    "mocha": "^7.1.2",
-    "mocha-junit-reporter": "^1.23.3",
-    "mocha-xunit-reporter": "^2.1.0"
+    "cross-env": "^6.0.0",
+    "mocha": "^6.2.0",
+    "mocha-junit-reporter": "^1.23.1",
+    "mocha-xunit-reporter": "^1.1.0"
   }
 }
