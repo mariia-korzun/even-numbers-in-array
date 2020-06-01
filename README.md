@@ -1,6 +1,6 @@
 # Even numbers in array task
 ### Array are given. Implement a function - evenNumbersInArray, for keep only even numbers in array and return it. 
-* 1. Given argument not an array - return "Passed argument is not a array or empty".
+* 1. Given argument not an array - return "Passed argument is not an array or empty".
 * 2. Given argument not contains even numbers - return "Passed array not have even numbers in array"
 
 ### For example:
