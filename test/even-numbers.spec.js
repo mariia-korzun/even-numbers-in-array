@@ -22,7 +22,7 @@ describe('evenNumbersInArray function', () => {
   it('should return even numbers [2,4,6] from array', () => {
     expect(evenNumbersInArray([1,2,3,4,5,6])).to.eql([2,4,6]);
   });
-  it('should return even numbers [2,4,6] from array', () => {
+  it('should return even numbers [2,12,10] from array', () => {
     expect(evenNumbersInArray([2,3,7,12,10])).to.eql([2,12,10]);
   });
   it('should return even numbers [6] from array', () => {
