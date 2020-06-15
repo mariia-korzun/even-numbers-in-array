@@ -16,9 +16,8 @@
 ![Errors](img/errors.png)
 <strong> it means that you failed the tests (“errno 3 “ means that you failed 3 tests)</strong>
 <br> <strong>And if you see the following (empty result):</strong>
-<br>
-<br>![Without errors](img/withoutErrors.png)
-<strong> it means that you have passed the tests. </strong><hr>
+<br>![Without errors](img/withoutErrors.png)<br>
+<strong> it means that you have passed the tests. </strong>
 
 8. But if you’d like to see more detailed info on your results you need to change some scripts in package.json <br>
 Our scripts now:
