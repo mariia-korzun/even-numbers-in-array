@@ -1,13 +1,13 @@
 const evenNumbersInArray = require('../src/even-numbers');
 
 describe('evenNumbersInArray function', () => {
-  it('should return "Passed argument is not a array" when type of passed argumnent is not an "array"', () => {
+  it('should return "Passed argument is not an array or empty" when type of passed argumnent is not an "array"', () => {
     expect(evenNumbersInArray(true)).to.equal('Passed argument is not an array or empty');
   });
-  it('should return "Passed argument is not a array" when type of passed argumnent is not an "array"', () => {
+  it('should return "Passed argument is not an array or empty" when type of passed argumnent is not an "array"', () => {
     expect(evenNumbersInArray(1)).to.equal('Passed argument is not an array or empty');
   });
-  it('should return "Passed argument is not a array" when type of passed argumnent is not an "array"', () => {
+  it('should return "Passed argument is not an array or empty" when type of passed argumnent is not an "array"', () => {
     expect(evenNumbersInArray([])).to.equal('Passed argument is not an array or empty');
   });
   it('should return "Passed array not have even numbers in array" when given array not have even numbers', () => {
