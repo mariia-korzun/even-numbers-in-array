@@ -49,16 +49,18 @@ Run “npm test” again. The result should look like this:
 <br>
 
 # Even numbers in array task
-### Array is given. Implement a function - evenNumbersInArray, for keep only even numbers in array and return it. 
-* 1. Given argument not an array - return "Passed argument is not an array or empty".
-* 2. Given argument not contains even numbers - return "Passed array not have even numbers in array"
+
+### Array is given. Create a function called “evenNumbersInArray”. It should return an array with only even numbers in it.
+1. If the given argument is not an array, return "Passed argument is not an array or empty".
+2. If the given argument does not contain even numbers, return "Passed array does not contain even numbers"
+
 
 ### For example:
 ```js
 evenNumbersInArray([1, 2, 3, 4, 5, 6]) // [2,4,6]
 evenNumbersInArray([28, 44, 11, 22, 13, 76]) // [28,44,22,76]
-evenNumbersInArray([1, 11, 47]) // 'Passed array not have even numbers in array'
-evenNumbersInArray([5]) // 'Passed array not have even numbers in array'
+evenNumbersInArray([1, 11, 47]) // 'Passed array does not contain even numbers'
+evenNumbersInArray([5]) // 'Passed array does not contain even numbers'
 evenNumbersInArray([]) //'Passed argument is not an array or empty'
 evenNumbersInArray(55) //'Passed argument is not an array or empty'
 ```
